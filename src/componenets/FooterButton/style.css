@@ -1,0 +1,18 @@
+#button {
+  text-align: center;
+}
+button {
+  height: 40px;
+  width: 100px;
+  background-color: black;
+  color: aliceblue;
+  font-size: 20px;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+button:hover {
+  opacity: 1;
+}
+button:active {
+  color: green;
+}
