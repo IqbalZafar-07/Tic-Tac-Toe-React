@@ -61,7 +61,7 @@ class App extends Component {
                 this.state.gameActive = false;
                 this.setState({playerTurn : this.state.playerTurn === "X" ? "Congratulations PlayerX Wins!" : "Congratulations PlayerO Wins!"})
             }
-            if (this.state.count === 8) {
+            if (this.state.count === 8 && this.state.gameActive === true) {
                 this.state.gameActive = false;
                 this.setState({playerTurn : "Game Draw!"})
             }
